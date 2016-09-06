@@ -1,0 +1,16 @@
+{
+  "name": "webpagetest_runner",
+  "version": "1.0.0",
+  "description": "web page test automation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "preinstall":"npm install webpagetest -g"
+  },
+  "author": "harshita sinha",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "node-schedule": "^1.1.1"
+  }
+}
